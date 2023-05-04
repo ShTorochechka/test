@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cardo', serif;
+    display: flex;
+    justify-content: center;
+}
+.shapka{
+width: 1440px;
+background-color: rgb(250, 246, 229);
+}
+
+.menu{
+height: 70px;
+display: flex;
+align-items: center;
+
+}
+
+
+.menu_left{
+margin-left: 10px;
+
+}
+
+.menu_link{
+text-decoration: none;
+margin: 10px;
+font-weight: 400;
+font-size: 17px;
+line-height: 23px;
+color: #000;
+}
+
+.menu_center{
+margin-left: 328px;
+}
+
+.header_prev{
+    background-image: url(DIVAN.png);
+height: 698px;
+display: flex;
+align-items: flex-start;
+justify-content: end;
+flex-direction: column;
+}
+
+.header_text{
+
+}
+
+.header_bottom{
+height: 50px;
+width: 324px;
+background-color: #000;
+color:aliceblue;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+}   
